@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#efe6db" />
+<title>Sardor Rahimov — Oshpaz &amp; Retsept muallifi | Portfolio</title>
+<meta name="description" content="Sardor Rahimov — 12 yillik tajribaga ega oshpaz. O'zbek va Yevropa oshxonasi, menyu ishlab chiqish, master-klass, event va ketering xizmatlari." />
+<meta name="keywords" content="oshpaz, chef, portfolio, o'zbek oshxonasi, menyu, master-klass, ketering, Toshkent" />
+<meta name="author" content="Sardor Rahimov" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sardor Rahimov — Oshpaz &amp; Retsept muallifi" />
+<meta property="og:description" content="12 yillik tajriba, 40+ mualliflik retsepti. O'zbek va Yevropa oshxonasi." />
+<meta property="og:image" content="images/chef-hero.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%238b5e3c'/%3E%3Ctext x='50' y='68' font-size='56' text-anchor='middle'%3E%F0%9F%91%A8%E2%80%8D%F0%9F%8D%B3%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<script>
+  /* Tema tanlash: saqlangan yoki tizim sozlamasi (miltillashsiz) */
+  (function () {
+    try {
+      var saved = localStorage.getItem('chef-theme');
+      var sys = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', saved || sys);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+
+<!-- Dekorativ fon -->
+<div class="bg-decor" aria-hidden="true">
+  <span class="blob blob--1"></span>
+  <span class="blob blob--2"></span>
+  <span class="blob blob--3"></span>
+  <span class="grain"></span>
+</div>
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+<a href="#aloqa" class="skip-link">Asosiy kontentga o'tish</a>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#bosh" class="brand" aria-label="Bosh sahifa">
+      <span class="brand__mark soft-out">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 13.5A4.5 4.5 0 0 1 6.4 4.6a5.4 5.4 0 0 1 11.2 0A4.5 4.5 0 0 1 18 13.5v.5H6v-.5Z"/><path d="M6.4 15.4h11.2v3.1a1.5 1.5 0 0 1-1.5 1.5H7.9a1.5 1.5 0 0 1-1.5-1.5v-3.1Z"/><path d="M10.2 15.4v4.6M13.8 15.4v4.6"/></svg>
+      </span>
+      <span class="brand__text">
+        <b>Chef Sardor</b>
+        <i>oshpazlik portfoli</i>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Asosiy menyu">
+      <a href="#bosh" class="nav__link is-active">Bosh sahifa</a>
+      <a href="#haqimda" class="nav__link">Men haqimda</a>
+      <a href="#taomlar" class="nav__link">Taomlar</a>
+      <a href="#xizmatlar" class="nav__link">Xizmatlar</a>
+      <a href="#tajriba" class="nav__link">Tajriba</a>
+      <a href="#aloqa" class="nav__link">Aloqa</a>
+      <a href="#aloqa" class="btn btn--primary btn--sm nav__cta">
+        <span>Bog'lanish</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+      </a>
+    </nav>
+
+    <div class="header__tools">
+      <button class="theme-toggle soft-out" id="themeToggle" type="button" role="switch" aria-checked="false" aria-label="Kun / tun rejimi">
+        <span class="theme-toggle__track">
+          <span class="theme-toggle__thumb">
+            <svg class="ico ico--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.4M12 19.2v2.4M2.4 12h2.4M19.2 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/></svg>
+            <svg class="ico ico--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.2A8.4 8.4 0 0 1 9.8 4 8.6 8.6 0 1 0 20 14.2Z"/></svg>
+          </span>
+        </span>
+      </button>
+
+      <button class="burger soft-out" id="burger" type="button" aria-label="Menyu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="bosh">
+  <div class="container hero__grid">
+
+    <div class="hero__content">
+      <span class="pill soft-out reveal">
+        <span class="pill__dot"></span> Hozir buyurtmalar uchun ochiq
+      </span>
+
+      <h1 class="hero__title reveal" data-delay="1">
+        Men — <span class="text-grad">Sardor Rahimov</span>,<br />
+        oshpaz va retsept muallifi
+      </h1>
+
+      <p class="hero__lead reveal" data-delay="2">
+        12 yildan ortiq vaqt davomida o'zbek va Yevropa oshxonasida ishlayman.
+        Oddiy mahsulotlardan unutilmas ta'm yasash — mening ishim va ishtiyoqim.
+      </p>
+
+      <div class="hero__actions reveal" data-delay="3">
+        <a href="#taomlar" class="btn btn--primary">
+          <span>Taomlarni ko'rish</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#aloqa" class="btn btn--ghost">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M4 6.5h16v11H4z"/><path d="m4.6 7 7.4 6 7.4-6"/></svg>
+          <span>Bog'lanish</span>
+        </a>
+      </div>
+
+      <dl class="stats reveal" data-delay="4">
+        <div class="stat">
+          <dt class="stat__num"><span class="count" data-count="12">0</span>+</dt>
+          <dd class="stat__label">Yillik tajriba</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__num"><span class="count" data-count="40">0</span>+</dt>
+          <dd class="stat__label">Mualliflik retsepti</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__num"><span class="count" data-count="15">0</span></dt>
+          <dd class="stat__label">Mukofot va g'alaba</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hero__visual reveal" data-delay="2">
+      <div class="avatar soft-out">
+        <div class="avatar__ring soft-in">
+          <img src="images/chef-hero.jpg" alt="Oshpaz Sardor Rahimov oshxonada" width="720" height="1080" fetchpriority="high" />
+        </div>
+      </div>
+
+      <div class="float-card float-card--rating soft-out">
+        <span class="stars" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="ico"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg>
+        </span>
+        <b>4.9 / 5.0</b>
+        <i>320+ mijoz fikri</i>
+      </div>
+
+      <div class="float-card float-card--award soft-out">
+        <span class="float-card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 5.5H5.6v1.8A3.4 3.4 0 0 0 8.6 10.6M16 5.5h2.4v1.8a3.4 3.4 0 0 1-3 3.3"/><path d="M12 13v3.4M9 20h6M10.4 16.4h3.2l1 3.6H9.4Z"/></svg>
+        </span>
+        <div>
+          <b>Top Chef 2024</b>
+          <i>Milliy gastronomiya festivali</i>
+        </div>
+      </div>
+
+      <div class="float-card float-card--dishes soft-out">
+        <span class="float-card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M5 4v7a3 3 0 0 0 3 3v6M8 4v6M11 4v6"/><path d="M17 4c-1.6 1.6-2.3 3.4-2.3 5.4 0 1.6.8 2.6 2.3 2.9V20"/></svg>
+        </span>
+        <div>
+          <b>600+ taom</b>
+          <i>tayyorlangan va taqdim etilgan</i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ MEN HAQIMDA ============ -->
+<section class="section" id="haqimda">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Men haqimda</span>
+      <h2 class="section__title">Ta'm — bu e'tibor bilan <span class="text-grad">boshlanadigan</span> suhbat</h2>
+      <p class="section__sub">
+        Oshxonada o'tkazgan har bir kunim men o'rgangan narsamning bir qismi: mahsulotni hurmat qilish,
+        vaqtni to'g'ri his qilish va har bir taomga o'z hikoyasini berish.
+      </p>
+    </div>
+
+    <div class="about">
+      <div class="about__media reveal">
+        <figure class="frame soft-out">
+          <img src="images/chef-cooking.jpg" alt="Oshpaz taomni tayyorlayotgan jarayon" width="1400" height="933" loading="lazy" />
+        </figure>
+        <div class="about__badge soft-out">
+          <b>2013</b>
+          <i>Kasbimni boshlagan yil</i>
+        </div>
+      </div>
+
+      <div class="about__body">
+        <p class="reveal">
+          Men Toshkentdagi pazandachilik akademiyasini tamomlaganman va o'z yo'limni kichik oshxonada
+          yordamchi sifatida boshlaganman. Bugun men bosh oshpaz sifatida jamoani boshqaraman,
+          mavsumiy menyular yarataman va yosh oshpazlarga o'rgataman.
+        </p>
+        <p class="reveal">
+          Mening uslubim — klassik texnika va mahalliy mahsulotlarning uyg'unligi. Men har bir
+          retseptni mahalliy fermerlarning mahsulotlariga moslashtiraman, shuning uchun taomlar
+          yangi, mavsumiy va takrorlanmas bo'lib chiqadi.
+        </p>
+
+        <ul class="checklist reveal">
+          <li><span class="check soft-in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.6 4.2 4.2L19 7.4"/></svg></span> Mavsumiy va mahalliy mahsulotlarga asoslangan menyu</li>
+          <li><span class="check soft-in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.6 4.2 4.2L19 7.4"/></svg></span> HACCP standartlariga muvofiq oshxona boshqaruvi</li>
+          <li><span class="check soft-in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.6 4.2 4.2L19 7.4"/></svg></span> 20 nafargacha bo'lgan jamoani tayyorlash tajribasi</li>
+        </ul>
+
+        <div class="skills reveal">
+          <h3 class="skills__title">Kasbiy ko'nikmalar</h3>
+
+          <div class="skill">
+            <div class="skill__top"><span>O'zbek oshxonasi</span><b>98%</b></div>
+            <div class="skill__bar soft-in"><span class="skill__fill" data-value="98"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__top"><span>Yevropa oshxonasi</span><b>93%</b></div>
+            <div class="skill__bar soft-in"><span class="skill__fill" data-value="93"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__top"><span>Grill &amp; Steak</span><b>90%</b></div>
+            <div class="skill__bar soft-in"><span class="skill__fill" data-value="90"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__top"><span>Pishiriqlar &amp; Shirinliklar</span><b>84%</b></div>
+            <div class="skill__bar soft-in"><span class="skill__fill" data-value="84"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill__top"><span>Oshxona boshqaruvi &amp; Food cost</span><b>88%</b></div>
+            <div class="skill__bar soft-in"><span class="skill__fill" data-value="88"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAOMLAR ============ -->
+<section class="section section--alt" id="taomlar">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Mening taomlarim</span>
+      <h2 class="section__title">Tanlangan <span class="text-grad">taomlar</span> kolleksiyasi</h2>
+      <p class="section__sub">Har bir taom — mavsum, mahsulot va mijoz istagining natijasi. Kattaroq ko'rish uchun rasmga bosing.</p>
+    </div>
+
+    <div class="filters reveal" role="tablist" aria-label="Taom kategoriyalari">
+      <button class="filter is-active" role="tab" aria-selected="true" data-filter="all">Hammasi</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="asosiy">Asosiy taomlar</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="salat">Salatlar</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="shorva">Sho'rvalar</button>
+      <button class="filter" role="tab" aria-selected="false" data-filter="shirinlik">Shirinliklar</button>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <article class="dish soft-out reveal" data-cat="asosiy">
+        <div class="dish__media soft-in">
+          <img src="images/dish-plov.jpg" alt="Toshkent palovi" loading="lazy" width="900" height="900" />
+          <span class="dish__tag soft-out">Milliy</span>
+        </div>
+        <div class="dish__body">
+          <h3 class="dish__title">Toshkent palovi</h3>
+          <p class="dish__text">Dumba, sariq sabzi va ziravorlar uyg'unligi — toshkentcha an'anaviy usulda.</p>
+          <div class="dish__meta">
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg> 90 daqiqa</span>
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg> Klassik</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish soft-out reveal" data-cat="asosiy">
+        <div class="dish__media soft-in">
+          <img src="images/dish-steak.jpg" alt="Ribeye steyk" loading="lazy" width="900" height="900" />
+          <span class="dish__tag soft-out">Imzo taom</span>
+        </div>
+        <div class="dish__body">
+          <h3 class="dish__title">Ribeye steyk</h3>
+          <p class="dish__text">Kömürda pishirilgan, rozmarin va sarimsoqli sariyog' bilan suzilgan medium-rare steyk.</p>
+          <div class="dish__meta">
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg> 35 daqiqa</span>
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg> Premium</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish soft-out reveal" data-cat="shirinlik">
+        <div class="dish__media soft-in">
+          <img src="images/dish-dessert.jpg" alt="Shokoladli lava kek" loading="lazy" width="900" height="900" />
+          <span class="dish__tag soft-out">Shirinlik</span>
+        </div>
+        <div class="dish__body">
+          <h3 class="dish__title">Shokoladli lava kek</h3>
+          <p class="dish__text">Ichi suyuq shokolad, karamel sousi, yangi rezavorlar va vanilli muzqaymoq.</p>
+          <div class="dish__meta">
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg> 25 daqiqa</span>
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg> Sevimli</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish soft-out reveal" data-cat="salat">
+        <div class="dish__media soft-in">
+          <img src="images/dish-salad.jpg" alt="Qovoqli salat" loading="lazy" width="900" height="900" />
+          <span class="dish__tag soft-out">Yengil</span>
+        </div>
+        <div class="dish__body">
+          <h3 class="dish__title">Qovoqli salat</h3>
+          <p class="dish__text">Qovurilgan qovoq, rukola, echki pishlog'i, yong'oq va asal sousi.</p>
+          <div class="dish__meta">
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg> 15 daqiqa</span>
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg> Vegetarian</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish soft-out reveal" data-cat="shorva">
+        <div class="dish__media soft-in">
+          <img src="images/dish-soup.jpg" alt="Qovoqli krem sho'rva" loading="lazy" width="900" height="900" />
+          <span class="dish__tag soft-out">Mavsumiy</span>
+        </div>
+        <div class="dish__body">
+          <h3 class="dish__title">Qovoqli krem sho'rva</h3>
+          <p class="dish__text">Qaymoqli qovoq sho'rvasi, qovurilgan urug'lar, timyan va zaytun moyi.</p>
+          <div class="dish__meta">
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg> 30 daqiqa</span>
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg> Kuzgi</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="dish soft-out reveal" data-cat="asosiy">
+        <div class="dish__media soft-in">
+          <img src="images/dish-fish.jpg" alt="Qovurilgan losos" loading="lazy" width="900" height="900" />
+          <span class="dish__tag soft-out">Fine dining</span>
+        </div>
+        <div class="dish__body">
+          <h3 class="dish__title">Losos filesi</h3>
+          <p class="dish__text">Limonli sariyog' sousi, grilda pishirilgan asparagus va ko'kat moyi.</p>
+          <div class="dish__meta">
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg> 20 daqiqa</span>
+            <span><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 9.7l5.8-.8Z"/></svg> Sog'lom</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ XIZMATLAR ============ -->
+<section class="section" id="xizmatlar">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Xizmatlar</span>
+      <h2 class="section__title">Men qanday <span class="text-grad">yordam</span> bera olaman</h2>
+      <p class="section__sub">Restoran ochishdan tortib uy sharoitidagi kechki ovqatgacha — har bir loyiha uchun mos yechim.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card soft-out reveal">
+        <span class="card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M5 4.6h14v14.8H5zM8 8.4h8M8 12h8M8 15.6h4.6"/></svg>
+        </span>
+        <h3>Menyu ishlab chiqish</h3>
+        <p>Kontseptsiyadan to'liq texnologik kartagacha: taom tanlash, food cost, taqdimot va plats.</p>
+        <span class="card__price">Loyiha asosida</span>
+      </article>
+
+      <article class="card soft-out reveal">
+        <span class="card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M12 3.6 3 8l9 4.4L21 8l-9-4.4Z"/><path d="M6.4 10.2v4.6c0 1.6 2.5 2.8 5.6 2.8s5.6-1.2 5.6-2.8v-4.6"/></svg>
+        </span>
+        <h3>Master-klass &amp; trening</h3>
+        <p>Guruhli yoki individual darslar: texnika, xavfsizlik, plats va oshxona tashkiloti.</p>
+        <span class="card__price">3 soatdan</span>
+      </article>
+
+      <article class="card soft-out reveal">
+        <span class="card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M3.6 17.4h16.8M5.4 17.4 6.9 8h10.2l1.5 9.4"/><path d="M12 4v4M9.4 6h5.2"/></svg>
+        </span>
+        <h3>Event &amp; ketering</h3>
+        <p>To'y, tug'ilgan kun va korporativ tadbirlar uchun to'liq menyu va xizmat ko'rsatish.</p>
+        <span class="card__price">20–500 mehmon</span>
+      </article>
+
+      <article class="card soft-out reveal">
+        <span class="card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M4 20h16M6 20V9.6l6-4.2 6 4.2V20"/><path d="M10 20v-5.4h4V20"/></svg>
+        </span>
+        <h3>Restoran konsalting</h3>
+        <p>Oshxona ish jarayonini optimallashtirish, jamoa tanlash va standartlar joriy etish.</p>
+        <span class="card__price">Oylik / loyiha</span>
+      </article>
+
+      <article class="card soft-out reveal">
+        <span class="card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M4 7.6h3.2l1.6-2h6.4l1.6 2H20v11H4z"/><circle cx="12" cy="13" r="3.4"/></svg>
+        </span>
+        <h3>Food styling &amp; suratga olish</h3>
+        <p>Taomni suratga olish uchun tayyorlash, kompozitsiya va vizual kontent strategiyasi.</p>
+        <span class="card__price">Kunlik</span>
+      </article>
+
+      <article class="card soft-out reveal">
+        <span class="card__ico soft-in">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M12 20.4s-7.2-4.3-7.2-9.3A4.2 4.2 0 0 1 12 8.2a4.2 4.2 0 0 1 7.2 2.9c0 5-7.2 9.3-7.2 9.3Z"/></svg>
+        </span>
+        <h3>Shaxsiy oshpaz</h3>
+        <p>Uyda yoki dam olish joyida individual menyu: xarid, tayyorlash va taqdim etish.</p>
+        <span class="card__price">Soatbay</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TAJRIBA ============ -->
+<section class="section section--alt" id="tajriba">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Tajriba &amp; yo'l</span>
+      <h2 class="section__title">Professional <span class="text-grad">yo'lim</span></h2>
+      <p class="section__sub">Kichik oshxonadan bosh oshpaz lavozimigacha — har bir bosqich o'z saboqlarini berdi.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl reveal">
+        <span class="tl__dot soft-out" aria-hidden="true"></span>
+        <div class="tl__card soft-out">
+          <span class="tl__year soft-in">2022 — hozir</span>
+          <h3>Bosh oshpaz</h3>
+          <p class="tl__place">Restoran “Caravan Bib · Toshkent”</p>
+          <p>Mavsumiy menyu yaratish, 18 nafar xodimdan iborat oshxona jamoasini boshqarish, food cost ko'rsatkichini 8% ga yaxshilash.</p>
+        </div>
+      </li>
+      <li class="tl reveal">
+        <span class="tl__dot soft-out" aria-hidden="true"></span>
+        <div class="tl__card soft-out">
+          <span class="tl__year soft-in">2019 — 2022</span>
+          <h3>Sous-chef</h3>
+          <p class="tl__place">“Osh Markazi” gastrobari</p>
+          <p>Yangi taomlarni sinovdan o'tkazish, xodimlarni o'qitish va smenalarni rejalashtirish bilan shug'ullanganman.</p>
+        </div>
+      </li>
+      <li class="tl reveal">
+        <span class="tl__dot soft-out" aria-hidden="true"></span>
+        <div class="tl__card soft-out">
+          <span class="tl__year soft-in">2017 — 2019</span>
+          <h3>Oshpaz</h3>
+          <p class="tl__place">“Registon” restorani</p>
+          <p>Grill va pishiriq bo'limida ishlab, milliy taomlarni zamonaviy taqdimotda berish usulini o'zlashtirganman.</p>
+        </div>
+      </li>
+      <li class="tl reveal">
+        <span class="tl__dot soft-out" aria-hidden="true"></span>
+        <div class="tl__card soft-out">
+          <span class="tl__year soft-in">2014 — 2017</span>
+          <h3>Oshpaz yordamchisi</h3>
+          <p class="tl__place">“Zarafshon” mehmonxonasi</p>
+          <p>Nonushta va banketlar bo'limida asosiy tayyorlash texnikasini o'rganganman.</p>
+        </div>
+      </li>
+      <li class="tl reveal">
+        <span class="tl__dot soft-out" aria-hidden="true"></span>
+        <div class="tl__card soft-out">
+          <span class="tl__year soft-in">2013</span>
+          <h3>Bitiruv &amp; sertifikat</h3>
+          <p class="tl__place">Toshkent pazandachilik akademiyasi</p>
+          <p>“Oshpazlik texnologiyasi” yo'nalishi bo'yicha diplom, sanitariya va xavfsizlik sertifikati.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ FIKRLAR ============ -->
+<section class="section" id="fikrlar">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Mijozlar fikri</span>
+      <h2 class="section__title">Ular bilan ishlaganimdan <span class="text-grad">faxr</span>lanaman</h2>
+    </div>
+
+    <div class="quotes">
+      <figure class="quote soft-out reveal">
+        <svg class="quote__mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6.6C6.4 7.8 4.4 10.2 4.4 13.8c0 2.4 1.4 3.9 3.4 3.9 1.8 0 3.1-1.3 3.1-3.1 0-1.7-1.2-2.9-2.8-2.9-.3 0-.6 0-.8.1.4-1.6 1.7-2.9 3.5-3.6L10 6.6Zm8.6 0c-3.6 1.2-5.6 3.6-5.6 7.2 0 2.4 1.4 3.9 3.4 3.9 1.8 0 3.1-1.3 3.1-3.1 0-1.7-1.2-2.9-2.8-2.9-.3 0-.6 0-.8.1.4-1.6 1.7-2.9 3.5-3.6l-.8-1.6Z"/></svg>
+        <blockquote>“Sardor bizning restoran menyusini noldan qayta ko'rib chiqdi. Uch oy ichida mijozlar oqimi sezilarli oshdi, jamoa esa aniq standart asosida ishlay boshladi.”</blockquote>
+        <figcaption>
+          <span class="avatar-mini soft-in">AK</span>
+          <span><b>Aziz Karimov</b><i>Restoran egasi, Toshkent</i></span>
+        </figcaption>
+      </figure>
+
+      <figure class="quote soft-out reveal">
+        <svg class="quote__mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6.6C6.4 7.8 4.4 10.2 4.4 13.8c0 2.4 1.4 3.9 3.4 3.9 1.8 0 3.1-1.3 3.1-3.1 0-1.7-1.2-2.9-2.8-2.9-.3 0-.6 0-.8.1.4-1.6 1.7-2.9 3.5-3.6L10 6.6Zm8.6 0c-3.6 1.2-5.6 3.6-5.6 7.2 0 2.4 1.4 3.9 3.4 3.9 1.8 0 3.1-1.3 3.1-3.1 0-1.7-1.2-2.9-2.8-2.9-.3 0-.6 0-.8.1.4-1.6 1.7-2.9 3.5-3.6l-.8-1.6Z"/></svg>
+        <blockquote>“To'yimiz uchun 240 kishilik menyuni tayyorladi. Har bir taom o'z vaqtida va ideal holatda berildi. Mehmonlar hali ham gapirib yurishadi!”</blockquote>
+        <figcaption>
+          <span class="avatar-mini soft-in">MD</span>
+          <span><b>Malika Dadaboyeva</b><i>To'y marosimi mijozi</i></span>
+        </figcaption>
+      </figure>
+
+      <figure class="quote soft-out reveal">
+        <svg class="quote__mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6.6C6.4 7.8 4.4 10.2 4.4 13.8c0 2.4 1.4 3.9 3.4 3.9 1.8 0 3.1-1.3 3.1-3.1 0-1.7-1.2-2.9-2.8-2.9-.3 0-.6 0-.8.1.4-1.6 1.7-2.9 3.5-3.6L10 6.6Zm8.6 0c-3.6 1.2-5.6 3.6-5.6 7.2 0 2.4 1.4 3.9 3.4 3.9 1.8 0 3.1-1.3 3.1-3.1 0-1.7-1.2-2.9-2.8-2.9-.3 0-.6 0-.8.1.4-1.6 1.7-2.9 3.5-3.6l-.8-1.6Z"/></svg>
+        <blockquote>“Master-klassdan keyin oshxonamga qaytdim va uy taomlarim butunlay o'zgardi. Amaliy, tushunarli va juda samimiy o'rgatadi.”</blockquote>
+        <figcaption>
+          <span class="avatar-mini soft-in">JT</span>
+          <span><b>Javohir Tursunov</b><i>Master-klass ishtirokchisi</i></span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ALOQA ============ -->
+<section class="section section--alt" id="aloqa">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow">Aloqa</span>
+      <h2 class="section__title">Keling, <span class="text-grad">birgalikda</span> pishirsak</h2>
+      <p class="section__sub">Loyihangiz yoki tadbiringiz haqida yozing — 24 soat ichida javob beraman.</p>
+    </div>
+
+    <div class="contact">
+      <aside class="contact__info">
+        <a class="info-card soft-out reveal" href="tel:+998901234567">
+          <span class="info-card__ico soft-in">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M6.2 4h3l1.4 3.6-2 1.4a11 11 0 0 0 5.4 5.4l1.4-2 3.6 1.4v3c0 .9-.7 1.6-1.6 1.6A13.6 13.6 0 0 1 4.6 5.6C4.6 4.7 5.3 4 6.2 4Z"/></svg>
+          </span>
+          <span class="info-card__body"><b>Telefon</b><i>+998 90 123 45 67</i></span>
+        </a>
+
+        <a class="info-card soft-out reveal" href="mailto:chef.sardor@example.com">
+          <span class="info-card__ico soft-in">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M4 6.5h16v11H4z"/><path d="m4.6 7 7.4 6 7.4-6"/></svg>
+          </span>
+          <span class="info-card__body"><b>Email</b><i>chef.sardor@example.com</i></span>
+        </a>
+
+        <div class="info-card soft-out reveal">
+          <span class="info-card__ico soft-in">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M12 20.6s6.6-5.4 6.6-10.2A6.6 6.6 0 0 0 5.4 10.4C5.4 15.2 12 20.6 12 20.6Z"/><circle cx="12" cy="10.2" r="2.4"/></svg>
+          </span>
+          <span class="info-card__body"><b>Manzil</b><i>Toshkent sh., Chilonzor tumani</i></span>
+        </div>
+
+        <div class="info-card soft-out reveal">
+          <span class="info-card__ico soft-in">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.6V12l3 1.8"/></svg>
+          </span>
+          <span class="info-card__body"><b>Ish vaqti</b><i>Dush–Shan, 09:00 — 20:00</i></span>
+        </div>
+
+        <div class="socials reveal">
+          <a href="#" class="social soft-out" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><rect x="4" y="4" width="16" height="16" rx="4.6"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r="1"/></svg>
+          </a>
+          <a href="#" class="social soft-out" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><rect x="3" y="6" width="18" height="12" rx="3.4"/><path d="m11 9.6 4 2.4-4 2.4z"/></svg>
+          </a>
+          <a href="#" class="social soft-out" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="m20.5 4.4-2.3 15c-.2 1-.8 1.2-1.6.8l-4.4-3.2-2.1 2c-.2.3-.5.4-.9.4l.3-4.5 8.2-7.4c.4-.3 0-.5-.5-.2L6.9 12.9l-4.4-1.4c-1-.3-1-1 .2-1.4l16.4-6.3c.8-.3 1.5.2 1.4 1.6Z"/></svg>
+          </a>
+          <a href="#" class="social soft-out" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M14.4 8.6h2.2V5.6h-2.4c-2.4 0-3.8 1.4-3.8 3.9v1.5H8.2v3h2.2V20h3.2v-6h2.3l.4-3h-2.7V9.8c0-.8.3-1.2.8-1.2Z"/></svg>
+          </a>
+        </div>
+      </aside>
+
+      <form class="form soft-out reveal" id="contactForm" novalidate>
+        <div class="form__row">
+          <label class="field">
+            <span class="field__label">Ismingiz</span>
+            <input class="soft-in" type="text" name="name" placeholder="Masalan: Aziza" required />
+            <span class="field__err">Ismingizni kiriting</span>
+          </label>
+          <label class="field">
+            <span class="field__label">Telefon yoki email</span>
+            <input class="soft-in" type="text" name="contact" placeholder="+998 ..." required />
+            <span class="field__err">Aloqa ma'lumotini kiriting</span>
+          </label>
+        </div>
+
+        <div class="form__row">
+          <label class="field">
+            <span class="field__label">Xizmat turi</span>
+            <select class="soft-in" name="service">
+              <option>Menyu ishlab chiqish</option>
+              <option>Master-klass &amp; trening</option>
+              <option>Event &amp; ketering</option>
+              <option>Restoran konsalting</option>
+              <option>Shaxsiy oshpaz</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field__label">Sana</span>
+            <input class="soft-in" type="date" name="date" />
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="field__label">Xabar</span>
+          <textarea class="soft-in" name="message" rows="4" placeholder="Loyihangiz haqida qisqacha yozing..." required></textarea>
+          <span class="field__err">Xabar kamida 10 belgidan iborat bo'lsin</span>
+        </label>
+
+        <label class="agree">
+          <input type="checkbox" name="agree" required />
+          <span class="agree__box soft-in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.6 4.2 4.2L19 7.4"/></svg></span>
+          <span class="agree__text">Ma'lumotlarim qayta ishlanishiga roziman</span>
+        </label>
+
+        <button class="btn btn--primary btn--wide" type="submit">
+          <span>Xabarni yuborish</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M4.5 12 20 5.2 14.6 20l-2.9-5.6L4.5 12Z"/></svg>
+        </button>
+
+        <p class="form__note">Yoki to'g'ridan-to'g'ri qo'ng'iroq qiling: <a href="tel:+998901234567">+998 90 123 45 67</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#bosh" class="brand">
+        <span class="brand__mark soft-out">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 13.5A4.5 4.5 0 0 1 6.4 4.6a5.4 5.4 0 0 1 11.2 0A4.5 4.5 0 0 1 18 13.5v.5H6v-.5Z"/><path d="M6.4 15.4h11.2v3.1a1.5 1.5 0 0 1-1.5 1.5H7.9a1.5 1.5 0 0 1-1.5-1.5v-3.1Z"/></svg>
+        </span>
+        <span class="brand__text"><b>Chef Sardor</b><i>oshpazlik portfoli</i></span>
+      </a>
+      <p>Har bir taomga mehr bilan yondashuv — shu mening falsafam.</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer menyusi">
+      <h4>Sahifalar</h4>
+      <a href="#bosh">Bosh sahifa</a>
+      <a href="#haqimda">Men haqimda</a>
+      <a href="#taomlar">Taomlar</a>
+      <a href="#xizmatlar">Xizmatlar</a>
+    </nav>
+
+    <nav class="footer__nav" aria-label="Qo'shimcha havolalar">
+      <h4>Boshqa</h4>
+      <a href="#tajriba">Tajriba</a>
+      <a href="#fikrlar">Fikrlar</a>
+      <a href="#aloqa">Aloqa</a>
+      <a href="#" download>Rezyume (PDF)</a>
+    </nav>
+
+    <div class="footer__cta soft-out">
+      <h4>Menyu yangiliklari</h4>
+      <p>Yangi retsept va master-klasslar haqida birinchi bo'lib biling.</p>
+      <form class="mini-form" id="miniForm">
+        <input class="soft-in" type="email" placeholder="Email manzil" aria-label="Email" required />
+        <button class="btn btn--primary btn--sm" type="submit" aria-label="Obuna bo'lish">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>© <span id="year">2026</span> Sardor Rahimov. Barcha huquqlar himoyalangan.</p>
+    <p class="footer__made">SOFT UI dizayni · jigarrang palitra · <button class="linkish" id="themeToggleBottom" type="button">kun / tun</button></p>
+  </div>
+</footer>
+
+<a href="#bosh" class="to-top soft-out" id="toTop" aria-label="Yuqoriga">
+  <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M12 19V6M6 12l6-6 6 6"/></svg>
+</a>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Taom rasmi" hidden>
+  <button class="lb__close soft-out" id="lbClose" aria-label="Yopish">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <button class="lb__nav lb__nav--prev soft-out" id="lbPrev" aria-label="Oldingi">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M15 6l-6 6 6 6"/></svg>
+  </button>
+  <figure class="lb__fig soft-out">
+    <img id="lbImg" src="" alt="" />
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb__nav lb__nav--next soft-out" id="lbNext" aria-label="Keyingi">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="ico"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
