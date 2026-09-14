@@ -347,6 +347,25 @@
   });
 
   /* ----------------------------------------------------------------------
+     9b. REZYUME (chop etish / PDF) va vaqtinchalik havolalar
+  ---------------------------------------------------------------------- */
+  const printCv = $('#printCv');
+  printCv && printCv.addEventListener('click', (e) => {
+    e.preventDefault();
+    toast('Chop etish oynasi ochilmoqda — "Save as PDF" ni tanlang');
+    setTimeout(() => window.print(), 500);
+  });
+
+  /* Hali manzil qo'yilmagan ijtimoiy tarmoq havolalari (href="#") */
+  $$('a[href="#"]').forEach((a) => {
+    if (a.id === 'printCv') return;
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      toast('Bu havolani o\'z profilingiz manziliga almashtiring');
+    });
+  });
+
+  /* ----------------------------------------------------------------------
      10. YIL
   ---------------------------------------------------------------------- */
   const year = $('#year');
